@@ -24,3 +24,5 @@ mi\_proyecto\_web/
 
 └── funcionalidad.html
 
+## Avances
+- Funcionalidad trabajada desde la rama desarrollo.
