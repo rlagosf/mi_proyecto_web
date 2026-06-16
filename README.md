@@ -24,3 +24,5 @@ mi\_proyecto\_web/
 
 └── funcionalidad.html
 
+## Reporte
+-Informe de estado semanal desde la rama main
