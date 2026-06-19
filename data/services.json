@@ -1,0 +1,14 @@
+[
+    {
+        "titulo": "Diseño Web",
+        "descripcion": "Creación de interfaces modernas, responsivas y orientadas a la experiencia de usuario."
+    },
+    {
+        "titulo": "Arquitectura Modular",
+        "descripcion": "Organización del sitio mediante componentes reutilizables y archivos independientes."
+    },
+    {
+        "titulo": "Gestión de Datos",
+        "descripcion": "Separación del contenido mediante archivos JSON para mejorar la mantenibilidad."
+    }
+]

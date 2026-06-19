@@ -3,44 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Proyecto Web</title>
+    <title>Sitio Modular - Aplicaciones Web</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header>
-        <h1>Mi Proyecto Web</h1>
-        <p>Primer desafío práctico con Git, GitHub y buenas prácticas de codificación.</p>
-    </header>
+    <div id="header-container"></div>
 
-    <main>
-        <section>
-            <h2>Propósito del proyecto</h2>
+    <main class="main-content">
+        <section class="hero">
+            <h1>Aplicaciones y Tecnologías de la Web</h1>
             <p>
-                Este sitio web básico permite aplicar una estructura HTML ordenada,
-                documentada y versionada mediante Git.
+                Sitio web publicado en GitHub Pages y estructurado mediante componentes,
+                estilos, lógica JavaScript y datos JSON.
             </p>
         </section>
 
-        <section>
-            <h2>Buenas prácticas aplicadas</h2>
-            <ul>
-                <li>Uso correcto de la estructura HTML5.</li>
-                <li>Indentación consistente para mejorar la legibilidad.</li>
-                <li>Separación clara entre encabezado, contenido principal y pie de página.</li>
-                <li>Documentación del proyecto mediante archivo README.md.</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Control de versiones</h2>
+        <section class="section">
+            <h2>Servicios del sitio</h2>
             <p>
-                El proyecto utiliza Git para registrar cambios mediante commits
-                y GitHub para alojar el repositorio remoto.
+                Los siguientes elementos son cargados dinámicamente desde un archivo JSON.
             </p>
+
+            <div id="services-container" class="cards-container"></div>
         </section>
     </main>
 
-    <footer>
-        <p>Desarrollado para la asignatura Aplicaciones y Tecnologías de la Web.</p>
-    </footer>
+    <div id="footer-container"></div>
+
+    <script type="module" src="./js/main.js"></script>
 </body>
 </html>
